@@ -48,6 +48,7 @@ class ProductCard extends StatelessWidget {
 void main() {
   runApp(
     MaterialApp(
+    debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(title: Text("Products")),
         body: Padding(
